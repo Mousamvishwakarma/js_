@@ -1,5 +1,4 @@
 "use strict";
-let 
 
 console.log( typeof "Hello World!");
 
