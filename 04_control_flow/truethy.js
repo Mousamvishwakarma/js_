@@ -1,17 +1,17 @@
-// const userEail = "mousam@google.com"
+const userEail = "mousam@google.com"
 
-// if (userEail){
-//     console.log("got the useremail");
-// }else{
-//     console.log("don't have user email");
-// }
+if (userEail){
+    console.log("got the useremail");
+}else{
+    console.log("don't have user email");
+}
 
 // Array of empty
-// const myarray = []
+const myarray = []
 
-// if(myarray.length === 0 ){
-//     console.log("Array is empty");
-// }
+if(myarray.length === 0 ){
+    console.log("Array is empty");
+}
 
 // object check empty or not 
 const myObj = {}
@@ -23,11 +23,11 @@ if(Object.keys(myObj).length === 0 ){
 // nullish coalescing opretor (??):
 
 let val1 ;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = " " ?? 10
-// val1 = undefined ?? 10
-// val1 = null ?? undefined ?? " " ?? 11 ?? 15/
+val1 = 5 ?? 10
+val1 = null ?? 10
+val1 = " " ?? 10
+val1 = undefined ?? 10
+val1 = null ?? undefined ?? " " ?? 11 ?? 15/
 
 console.log(val1);
 

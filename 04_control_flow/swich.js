@@ -1,38 +1,40 @@
-// switch (key) {
-//     case value:
+switch (key) {
+    case value:
         
-//         break;
+        break;
 
-//     default:
-//         break;
-// }
+    default:
+        break;
+}
 
-// const month = "2"
-// switch (month) {
-//     case 1:
-//         console.log("january");
+const month = "2"
+switch (month) {
+    case 1:
+        console.log("january");
         
-//         break;
-//     case 2:
-//         console.log("feb");
+        break;
+    case 2:
+        console.log("feb");
         
-//         break;
-//     case 3:
-//         console.log("march");
+        break;
+    case 3:
+        console.log("march");
         
-//         break;
-//     case 4:
-//         console.log("april");
+        break;
+    case 4:
+        console.log("april");
         
-//         break;
+        break;
 
-//     default:
-//         console.log("default caase");
+    default:
+        console.log("default caase");
         
-//         break;
-// }
+        break;
+}
 
-const month = "feb"
+
+// To String
+const months = "feb"
 switch (month) {
     case "jan":
         console.log("january");
