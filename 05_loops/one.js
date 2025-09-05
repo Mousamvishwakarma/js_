@@ -21,9 +21,26 @@ for (let j = 1; j <= 10; j++) {
 let  myarray = ["superman "," batman", "human"]
 console.log(myarray.length);
 
-for (let index = 0; index <= myarrayk.length; index++) {
+for (let index = 0; index <= myarray.length; index++) {
     const element = myarray[index];
     console.log(element);
-    
-    
+}
+
+// Bracks controlFlow
+for (let i = 1; i <=20; i++) {
+    if(i == 5){
+        console.log("DEtected 5");
+        break
+    }
+    console.log(`value of i is ${i}`);
+}
+
+
+// continue controlflow
+for (let i = 1; i <=20; i++) {
+    if(i == 5){
+        console.log("DEtected 5");
+        continue
+    }
+    console.log(`value of i is ${i}`);
 }
