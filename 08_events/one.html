@@ -19,18 +19,23 @@
    </div>
 </body>
    <script>
+     // types , time ,defultPrevent
+    //  EventTarget, toElementy
+    // key code ,ctrlkey, shiftkey
         // attachevent 
     //jQuery - on 
     // document.getElementById('owl').onclick = function(){
     //     alert('owl clicked')
     // }
-    document.getElementById('owl').addEventListener('click' ,function(e){
-        console.log(e);
+    document.getElementById('images').addEventListener('click' ,function(e){
+        console.log("clicked inside the ul");
         
     },false)
-    // types , time ,defultPrevent
-    //  EventTarget, toElementy
-    // key code ,ctrlkey, shiftkey
+    document.getElementById('owl').addEventListener('click' ,function(e){
+        console.log(" owl clicked ");
+        
+    },false)
+   
 
     
 
