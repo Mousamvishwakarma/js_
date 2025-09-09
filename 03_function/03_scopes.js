@@ -38,8 +38,7 @@ if (true) {
     
 }
 console.log(username);
-
-function addone (num){
+  const  addone=  (num)=>{
     return num + 1
 }
 console.log(addone(5));
