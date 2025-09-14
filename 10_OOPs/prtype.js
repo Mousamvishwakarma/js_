@@ -30,3 +30,14 @@ const User = {
 const Teacher = {
     makeVideo: true
 }
+
+
+const TeachingSupport = {
+    isAvailable: false
+}
+
+const TASupport = {
+    makeAssignment: 'JS assignment',
+    fullTime: true,
+    __proto__: TeachingSupport
+}
