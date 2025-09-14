@@ -41,3 +41,11 @@ const TASupport = {
     fullTime: true,
     __proto__: TeachingSupport
 }
+
+
+Teacher.__proto__ = User
+
+// modern syntax
+Object.setPrototypeOf(TeachingSupport, Teacher)
+
+let anotherUsername = "ChaiAurCode     "
