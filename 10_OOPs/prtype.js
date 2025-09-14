@@ -11,4 +11,6 @@
         
     }
  }
- 
+ Object.prototype.hitesh = function(){
+    console.log(`hitesh is present in all objects`);
+}
