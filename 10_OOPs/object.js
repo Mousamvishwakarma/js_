@@ -19,9 +19,9 @@ createFunc.prototype.printme =function(){
     
 }
 const chai =new  createFunc("chai ",25);
-const tea = new createFunc("tea ",250);
+const tea =  createFunc("tea ",250);
 
 chai.printme()
 
-tea.printme()
+// tea.printme()
 
