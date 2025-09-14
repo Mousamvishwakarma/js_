@@ -18,3 +18,15 @@
 Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
+
+
+
+
+const User = {
+    name: "chai",
+    email: "chai@google.com"
+}
+
+const Teacher = {
+    makeVideo: true
+}
