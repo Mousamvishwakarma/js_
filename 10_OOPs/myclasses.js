@@ -1,13 +1,13 @@
-class User{
-    constructor(username,gmail,passord){
-        this.username= username
+class User {
+    constructor(username, gmail, passord) {
+        this.username = username
         this.gmail = gmail
-        this.passord =passord
+        this.passord = passord
     }
-    encryptPassword(){
+    encryptPassword() {
         return `${this.passord}abc`
     }
-  changeUsername(){
+    changeUsername() {
         return `${this.username.toUpperCase()}`
     }
 
@@ -17,3 +17,13 @@ const chai = new User("chai", "chai@gmail.com", "123")
 
 console.log(chai.encryptPassword());
 console.log(chai.changeUsername());
+
+function User(username, gmail, passord) {
+    this.username = username
+    this.gmail = gmail
+    this.passord = passord
+}
+
+User.prototype.encryptPassword = function(){
+    return `${this.passord}abc`
+}
