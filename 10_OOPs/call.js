@@ -3,8 +3,10 @@ function setusername(username){
     console.log("called");
     
 }
+
 function createuser(username , password, email){
-    setusername.call(username)
+    setusername.call(this, username);
+    
     this.email = email
     this.password = password
     // this.username = username
