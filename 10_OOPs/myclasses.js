@@ -7,5 +7,13 @@ class User{
     encryptPassword(){
         return `${this.passord}abc`
     }
+  changeUsername(){
+        return `${this.username.toUpperCase()}`
+    }
+
 }
-const chai = new User ("mousam"," mousam2055@gmail.com", "123456")
+
+const chai = new User("chai", "chai@gmail.com", "123")
+
+console.log(chai.encryptPassword());
+console.log(chai.changeUsername());
