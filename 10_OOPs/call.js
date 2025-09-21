@@ -1,17 +1,15 @@
-function setusername(username){
-    this.username = username 
+function SetUsername(username){
+    //complex DB calls
+    this.username = username
     console.log("called");
-    
 }
 
-function createuser(username , password, email){
-    setusername.call(this, username);
-    
+function createUser(username, email, password){
+    SetUsername.call(this, username)
+   
     this.email = email
     this.password = password
-    // this.username = username
 }
 
-const chai = new createuser("mousam", "123456","mousam2005@gmail.com")
+const chai = new createUser("chai", "chai@fb.com", "123")
 console.log(chai);
-
