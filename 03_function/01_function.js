@@ -26,3 +26,9 @@ function loggedInMassage(username) {
 }
 // console.log(loggedInMassage("mousam"));
 console.log(loggedInMassage("mousam"))
+
+console.log(test);
+var test = function(){
+console.log("hello");
+
+}
